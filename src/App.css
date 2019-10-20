@@ -1,22 +1,77 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
+div{
+  justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addIndex{
+  width: 33.6px;
+  height: 33.6px;
   display: flex;
-  flex-direction: column;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: solid 2px rgba(51, 160, 255, 0.25);;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.addBackground{
+  background-color: #33a0ff;
+}
+.addColor{
+  color: #33a0ff;
+}
+.product_name{
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.35px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 12px;
+}
+.product_price{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ff4858;
+}
+.product_old_price{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  text-decoration: line-through;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #c1c8ce;
+}
+.flex_div{
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #09d3ac;
+
+.test{
+  display: flex;
+  flex-direction: column;
 }
+.test h5{
+  margin-bottom: 18px;
+}
+
+/* .imgTest:hover .imageDIV{
+  display: flex;
+} */
