@@ -7,7 +7,6 @@ const SizeWrapper = ({height, children}) => {
   const SizeWrapperDIV = styled.div`
   height: ${height};
   width: auto;
-  /* ... */
 `;
 
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const TypographyText = ({ line_height, letter_spacing, font_size, font_weight, children }) => {
+const TypographyText = ({ line_height, color, letter_spacing, position, font_size, font_weight, children }) => {
     const Typography = Styled.div`
   font-size: ${font_size};
   font-weight: ${font_weight};
@@ -10,8 +10,8 @@ const TypographyText = ({ line_height, letter_spacing, font_size, font_weight, c
   font-style: normal;
   line-height: ${line_height};
   letter-spacing: ${letter_spacing};
-  text-align: left;
-  color: #22262a;
+  text-align: ${position};
+  color: ${color || "#22262a"};
 `;
     return (<Typography>
         {children}
