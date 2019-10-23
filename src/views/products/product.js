@@ -45,12 +45,48 @@ const Product = () => {
     `;
     const PaginationWrapper = Styled.div`
         height: 58px;
-        margin: 15px 0px;
+        margin: 0px 0px 190px 0px;
         padding: 0px 15px;
         border-radius: 4px;
         background-color: #f6f7f8;
         display:flex;
         align-items:center;
+        justify-content: center;
+    `;
+    const PaginationNumber = Styled.h5`
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: #22262a;
+    `;
+    const PaginationNumberActive = Styled.h5`
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+    `;
+    const PaginationNumberWrapperActive = Styled.div`
+        width: 56px;
+        height: 56px;
+        background-color: #22262a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    `;
+    const PaginationNumberWrapper = Styled.div`
+        width: 56px;
+        height: 56px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
         justify-content: center;
     `;
     const ProductFilterWrapperSub = Styled.div`
@@ -175,15 +211,26 @@ const Product = () => {
               <CardWrapper flex_direction="column"></CardWrapper>
               <CardWrapper flex_direction="column"></CardWrapper>
             </ProductsSale>
+
             <PaginationWrapper>
-              <h1>1</h1>
-              font-size: 18px; font-weight: 600; font-stretch: normal;
-              font-style: normal; line-height: 1.56; letter-spacing: normal;
-              text-align: center; color: #22262a;
-              <h1>2</h1>
-              <h1>3</h1>
-              <h1>4</h1>
+              <PaginationNumberWrapper>
+                <PaginationNumber>1</PaginationNumber>
+              </PaginationNumberWrapper>
+
+              <PaginationNumberWrapper>
+                <PaginationNumber>2</PaginationNumber>
+              </PaginationNumberWrapper>
+
+              <PaginationNumberWrapperActive>
+                <PaginationNumberActive>3</PaginationNumberActive>
+              </PaginationNumberWrapperActive>
+
+              <PaginationNumberWrapper>
+                <PaginationNumber>4</PaginationNumber>
+              </PaginationNumberWrapper>
+
             </PaginationWrapper>
+
           </MainContentWrapper>
         </ProductMainContainer>
 
