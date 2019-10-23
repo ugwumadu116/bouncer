@@ -3,9 +3,9 @@ import NavOne from '../../components/common/Navbars';
 import Footer from '../../components/common/Footer';
 import Styled from "styled-components";
 import { TypographyText } from '../../components/mockups';
-import Home2 from '../homepage/home2';
 import SideBar from '../../components/common/SideBar';
 import HeroTwo from "../homepage/HeroTwo";
+import { CardWrapper } from "../../components/common";
 
 
 const Product = () => {
@@ -43,6 +43,16 @@ const Product = () => {
         align-items:center;
         justify-content: space-between;
     `;
+    const PaginationWrapper = Styled.div`
+        height: 58px;
+        margin: 15px 0px;
+        padding: 0px 15px;
+        border-radius: 4px;
+        background-color: #f6f7f8;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    `;
     const ProductFilterWrapperSub = Styled.div`
         display:flex;
         
@@ -56,6 +66,14 @@ const Product = () => {
         display: flex;
         
         align-items:center;
+    `;
+    const ProductsSale = Styled.section`
+        max-width: 1139px;
+        margin: 36px auto;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        align-items: center;
     `;
     
 
@@ -100,6 +118,7 @@ const Product = () => {
               height="340px"
               width="auto"
             ></HeroTwo>
+
             <ProductFilterWrapper>
               <ProductFilterWrapperSub>
                 <SpaceDIV>13 Items</SpaceDIV>
@@ -141,6 +160,30 @@ const Product = () => {
                 <SpaceDIV>List</SpaceDIV>
               </ProductFilterWrapperSub>
             </ProductFilterWrapper>
+
+            <ProductsSale>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+              <CardWrapper flex_direction="column"></CardWrapper>
+            </ProductsSale>
+            <PaginationWrapper>
+              <h1>1</h1>
+              font-size: 18px; font-weight: 600; font-stretch: normal;
+              font-style: normal; line-height: 1.56; letter-spacing: normal;
+              text-align: center; color: #22262a;
+              <h1>2</h1>
+              <h1>3</h1>
+              <h1>4</h1>
+            </PaginationWrapper>
           </MainContentWrapper>
         </ProductMainContainer>
 
