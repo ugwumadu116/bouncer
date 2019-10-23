@@ -2,10 +2,13 @@ import React from 'react';
 import NavOne from '../../components/common/Navbars';
 import HeroOne from './HeroOne';
 import ProductsInfo from './ProductsInfo';
-// import { Link } from 'react-router-dom';
-// import { FaShoppingCart, FaHeart } from "react-icons/fa";
-// import { SizeWrapper, ColorDiv, TypographyText, ButtonContainer } from '../../components/mockups';
-// import { FormInput, CardWrapper } from '../../components/common';
+import BestSale from './BestSale';
+import HeroTwo from './HeroTwo';
+import Services from './Services';
+import LatestNews from './Latest';
+import FeatureProducts from './Features';
+import SearchProducts from './Search';
+import Footer from '../../components/common/Footer';
 
 const Home = () => {
     
@@ -14,6 +17,13 @@ const Home = () => {
         <NavOne />
         <HeroOne />
         <ProductsInfo />
+        <BestSale />
+        <HeroTwo />
+        <Services />
+        <LatestNews />
+        <FeatureProducts />
+        <SearchProducts />
+        <Footer />
       </div>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
+import { Link } from "react-router-dom";
 import Styled from 'styled-components';
 import { FaUser, FaShoppingBag, FaSearch } from "react-icons/fa";
 
@@ -40,47 +40,57 @@ const NavOne = () => {
         background: transparent;
     `;
     return (
-        <div>
-            <div className="naveOneDiv">
-                <HomeNavOne>
-                    <NavOneChild >
-                        <SelectDOM>
-                            <option>En</option>
-                            <option>IGBO</option>
-                        </SelectDOM>
-                        <SelectDOM>
-                            <option>USD</option>
-                            <option>NGN</option>
-                        </SelectDOM>
-                    </NavOneChild>
-                    <NavOneChild>
-                        <FaUser color="#22262a" />
-                        <h5 className="shiftItem">My Profile</h5>
-                        <NavOneChild>
-                            <FaShoppingBag className="shiftItem" />
-                            <h5 className="shiftItem">0 items</h5>
-                            <h5 className="shiftItem2">$0.00</h5>
-                        </NavOneChild>
-                        <FaSearch className="shiftItem" />
-                    </NavOneChild>
-
-                </HomeNavOne>
-            </div>
-            <div className="logo_space">
-                <img src={Logo} alt="logo"/>
-            </div>
-            <HomeNavTwo >
-                <h4>Home</h4>
-                <h4>Store</h4>
-                <h4>Iphone</h4>
-                <h4>IPAD</h4>
-                <h4>MACBOOK</h4>
-                <h4>ACCESSORIES</h4>
-            </HomeNavTwo>
-
-            
+      <div>
+        <div className="naveOneDiv">
+          <HomeNavOne>
+            <NavOneChild>
+              <SelectDOM>
+                <option>En</option>
+                <option>IGBO</option>
+              </SelectDOM>
+              <SelectDOM>
+                <option>USD</option>
+                <option>NGN</option>
+              </SelectDOM>
+            </NavOneChild>
+            <NavOneChild>
+              <FaUser color="#22262a" />
+              <h5 className="shiftItem">My Profile</h5>
+              <NavOneChild>
+                <FaShoppingBag className="shiftItem" />
+                <h5 className="shiftItem">0 items</h5>
+                <h5 className="shiftItem2">$0.00</h5>
+              </NavOneChild>
+              <FaSearch className="shiftItem" />
+            </NavOneChild>
+          </HomeNavOne>
         </div>
-        
+        <div className="logo_space">
+          <img src={Logo} alt="logo" />
+        </div>
+        <HomeNavTwo>
+          <Link
+            to={{
+              pathname: "/",
+              state: { name: "test" }
+            }}
+          >
+            Home
+          </Link>
+          <Link
+            to={{
+              pathname: "/product",
+              state: { name: "test" }
+            }}
+          >
+            Store
+          </Link>
+          <h4>Iphone</h4>
+          <h4>IPAD</h4>
+          <h4>MACBOOK</h4>
+          <h4>ACCESSORIES</h4>
+        </HomeNavTwo>
+      </div>
     );
 }
 

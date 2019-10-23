@@ -4,18 +4,19 @@ import Styled from 'styled-components'
 
 
 
-const ButtonContainer = ({ color, opacity, size, width, background, children }) => {
+const ButtonContainer = ({height, color, opacity, size, width, background, children }) => {
     const ButtonDom = Styled.button`
   width: ${width || "150px"};
-  height: 46px;
+  height: ${height || "46px"};
   border-radius: 4px;
-  border: ${ background } solid 2px;
+  border: ${background} solid 2px;
   background-color: ${background || "green"};
   font-size: ${size};
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.75;
+  cursor:pointer;
   letter-spacing: 0.4px;
   text-align: center;
   opacity: ${opacity || "normal"};

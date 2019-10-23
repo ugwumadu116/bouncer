@@ -19,6 +19,7 @@ const CardWrapper = ({ flex_direction }) => {
         align-items: center;
         height: 349px;
         border-radius: 4px;
+        margin-bottom: 30px;
         position: relative;
         border: solid 3px #f6f7f8;
     `;
@@ -53,7 +54,6 @@ const CardWrapper = ({ flex_direction }) => {
         }
         setCartBtn(setCart)
     }
-    console.log(Product)
 
     return (
         <CardWrapperDIV>

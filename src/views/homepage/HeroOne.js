@@ -77,7 +77,7 @@ const HeroOne = () => {
           <div className="image_container">
             <img src={Mask} alt="Iphone" />
           </div>
-          <FaChevronRight className="chevronRight" size="40px" />
+          <FaChevronRight className="chevronRight" size="30px" />
         </HeroOneContainerDIV>
       </HeroOneDIV>
     );

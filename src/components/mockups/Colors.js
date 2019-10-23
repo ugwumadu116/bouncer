@@ -2,10 +2,10 @@ import React from 'react';
 import Styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const ColorDiv = ({color}) => {
+const ColorDiv = ({color, width, height}) => {
 const CircleColor = Styled.div`
-  width: 33.6px;
-  height: 33.6px;
+  width: ${width || "33.6px"};
+  height: ${height || "33.6px"};
   border-radius: 999px;
   background-color: ${color};
 `;
