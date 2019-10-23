@@ -7,6 +7,7 @@ const CircleColor = Styled.div`
   width: ${width || "33.6px"};
   height: ${height || "33.6px"};
   border-radius: 999px;
+  cursor: pointer;
   background-color: ${color};
 `;
     return (<CircleColor></CircleColor> );

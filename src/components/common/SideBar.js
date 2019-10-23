@@ -2,29 +2,33 @@ import React from 'react';
 import Styled from 'styled-components';
 import { ColorDiv } from "../../components/mockups";
 
-
-
 const SideBar = () => {
     
 
     const Sidebar = Styled.div`
-        max-width: 270px;
+        max-widthxx: 670px;
     `;
     const Base = Styled.div`
-        height: 360px;
+        height: 350px;
         border-radius: 4px;
         margin-bottom: 30px;
         padding:20px;
         background-color: #f6f7f8;
     `;
     const Price = Styled(Base)`
-        height: 144px;
+        height: 134px;
     `;
     const Brand = Styled(Base)`
-        height: 245px;
+        height: 235px;
     `;
     const Color = Styled(Base)`
-        height: 123px;
+        height: 113px;
+    `;
+    const More = Styled(Base)`
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
     `;
     const BaseTopic = Styled.h2`
         font-size: 18px;
@@ -44,6 +48,7 @@ const SideBar = () => {
     `;
     const BaseValuesLeft = Styled.span`
         font-size: 14px;
+        cursor: pointer;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -58,6 +63,7 @@ const SideBar = () => {
     const BaseValues = Styled.span`
         font-size: 14px;
         opacity: 0.35;
+        cursor: pointer;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -65,6 +71,17 @@ const SideBar = () => {
         letter-spacing: 0.35px;
         text-align: right;
         color: #22262a;
+    `;
+    const MoreValues = Styled.span`
+         font-size: 14px;
+        cursor: pointer;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.35px;
+        text-align: center;
+        color: #262626;
     `;
     const BaseValues2 = Styled(BaseValues)`
         color: #33a0ff;
@@ -112,7 +129,7 @@ const SideBar = () => {
           <Color>
             <BaseTopic>COLOR</BaseTopic>
             <BaseItem>
-              <ColorDiv color="#006cff" width="20px" height="20px" />
+              <ColorDiv  color="#006cff" width="20px" height="20px" />
 
               <ColorDiv color="#fc3e39" width="20px" height="20px" />
 
@@ -145,7 +162,10 @@ const SideBar = () => {
               <BaseValues>99</BaseValues>
             </BaseItem>
           </Brand>
-          <h1> Hello form side bar</h1>
+
+          <More>
+            <MoreValues>More</MoreValues>
+          </More>
         </Sidebar>
       </>
     );
