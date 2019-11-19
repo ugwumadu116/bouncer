@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useContext } from "react";
 import NavOne from '../../components/common/Navbars';
 import Footer from '../../components/common/Footer';
 import Styled from "styled-components";
@@ -6,9 +6,24 @@ import { TypographyText } from '../../components/mockups';
 import SideBar from '../../components/common/SideBar';
 import HeroTwo from "../homepage/HeroTwo";
 import { CardWrapper } from "../../components/common";
+import { FaBars, FaGripHorizontal } from "react-icons/fa";
+import { BouncerProductsContext } from "../../context/BouncerProductsContext";
 
 
 const Product = () => {
+  const {bouncerProducts } = useContext(BouncerProductsContext)
+    const [grid, setGrid] = useState({ active: false, flex_direction:"row"});
+    const [column, setColumn] = useState({ active: true, flex_direction: "column" });
+
+    const handleColumnDisplayStyle = () => {
+      setGrid({ active: false, flex_direction: "row" });
+      setColumn({ active: true, flex_direction: "column" });
+    }
+    const handleGridDisplayStyle = () => {
+      setGrid({ active: true, flex_direction: "row" });
+      setColumn({ active: false, flex_direction: "column" });
+    }
+
     const SearchDiv = Styled.div`
         display: flex;
         justify-content: center;
@@ -100,8 +115,12 @@ const Product = () => {
     `;
     const SpaceDIV2 = Styled.div`
         display: flex;
-        
         align-items:center;
+        select{
+            border: none;
+            background: transparent;
+            width: 70px;
+        }
     `;
     const ProductsSale = Styled.section`
         max-width: 1139px;
@@ -172,14 +191,6 @@ const Product = () => {
                 </SpaceDIV>
                 <SpaceDIV>
                   <SpaceDIV2>
-                    <SpaceDIV>Sort By</SpaceDIV>
-                    <SpaceDIV>
-                      <select>
-                        <option>Name</option>
-                        <option>Price</option>
-                        <option>Hot</option>
-                      </select>
-                    </SpaceDIV>
                     <SpaceDIV>Show</SpaceDIV>
                     <SpaceDIV>
                       <select>
@@ -192,24 +203,31 @@ const Product = () => {
                 </SpaceDIV>
               </ProductFilterWrapperSub>
               <ProductFilterWrapperSub>
-                <SpaceDIV>Grid</SpaceDIV>
-                <SpaceDIV>List</SpaceDIV>
+                <SpaceDIV>
+                  <FaGripHorizontal
+                    onClick={handleColumnDisplayStyle}
+                    color={column.active ? "#2678BF" : "#C9CFD5"}
+                    size="23px"
+                  />
+                </SpaceDIV>
+                <SpaceDIV>
+                  <FaBars
+                    onClick={handleGridDisplayStyle}
+                    color={grid.active ? "#2678BF" : "#C9CFD5"}
+                    size="23px"
+                  />
+                </SpaceDIV>
               </ProductFilterWrapperSub>
             </ProductFilterWrapper>
 
             <ProductsSale>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
-              <CardWrapper flex_direction="column"></CardWrapper>
+              {bouncerProducts.map(product => (
+                <CardWrapper
+                  stock={product}
+                  flex_direction={column.active ? "column" : "row"}
+                  key={product.id}
+                ></CardWrapper>
+              ))}
             </ProductsSale>
 
             <PaginationWrapper>
@@ -228,12 +246,9 @@ const Product = () => {
               <PaginationNumberWrapper>
                 <PaginationNumber>4</PaginationNumber>
               </PaginationNumberWrapper>
-
             </PaginationWrapper>
-
           </MainContentWrapper>
         </ProductMainContainer>
-
         <Footer />
       </div>
     );

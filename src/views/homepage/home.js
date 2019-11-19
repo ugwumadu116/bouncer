@@ -11,6 +11,7 @@ import SearchProducts from './Search';
 import Footer from '../../components/common/Footer';
 
 const Home = () => {
+  
     
     return (
       <div className="App">

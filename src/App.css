@@ -61,6 +61,7 @@ div{
 .flex_div{
   display: flex;
   
+  
   justify-content: space-evenly;
 }
 

@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useContext } from "react";
 import Styled from 'styled-components';
 import { CardWrapper } from '../../components/common';
+import { BouncerProductsContext } from "../../context/BouncerProductsContext";
 
 const BestSale = () => {
+  const { bouncerProducts } = useContext(BouncerProductsContext);
+  const firstEightBouncer = bouncerProducts.slice(0, 8);
+  
+
+
     const BestSaleDIV = Styled.div`
         display: flex;
         align-items: center;
@@ -85,20 +91,18 @@ const BestSale = () => {
           <h4>Accessories</h4>
         </HomeNavTwo>
         <ProductsSale>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
-          <CardWrapper flex_direction="column"></CardWrapper>
+          {firstEightBouncer.map(product => (
+            <CardWrapper
+              stock={product}
+              flex_direction="column"
+              key={product.id}
+            ></CardWrapper>
+          ))}
         </ProductsSale>
         <BestSaleDIV2>
           <BestSaleANCHOR>LOAD MORE</BestSaleANCHOR>
           <LoadMoreDIV></LoadMoreDIV>
         </BestSaleDIV2>
-        
       </>
     );
 }
