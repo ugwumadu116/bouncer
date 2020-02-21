@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the state of the item 1`] = `
+<div
+  class="sc-bwzfXH jSeVuh"
+  data-testid="sort-filter"
+>
+  <div
+    class="sort-wrapper"
+  >
+    <div
+      class="sc-bdVaJa dOqzxm"
+    >
+      2
+       
+      items
+    </div>
+    <div
+      class="sortby"
+    >
+      <p>
+        SortBy
+      </p>
+      <label>
+        <select
+          class="sc-bxivhb hcoRsX select"
+          list="Name,Size"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            Name
+          </option>
+          <option>
+            Size
+          </option>
+        </select>
+      </label>
+    </div>
+    <div
+      class="show"
+    >
+      <p>
+        Show
+      </p>
+      <label>
+        <select
+          class="sc-bxivhb hcoRsX select"
+          list="1,2,3,4"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <div
+    class="sc-htpNat bkicUs"
+  >
+    <div
+      id="0"
+      style="color: rgb(46, 144, 229);"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+        />
+      </svg>
+    </div>
+    <div
+      id="1"
+      style="color: rgb(193, 200, 206);"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

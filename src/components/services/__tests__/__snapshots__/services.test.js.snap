@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="vis-hidden"
+>
+  <div
+    className="sc-bdVaJa lauwRn"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="d-flex-space-between flex-column p-3"
+      >
+        <div>
+          <img
+            alt="support"
+            src="shipping.png"
+          />
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH hdeUKD"
+          >
+            FREE SHIPPING
+          </p>
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH fGlIYz text-align"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+          </p>
+        </div>
+      </div>
+      <div
+        className="d-flex-space-between flex-column p-3"
+      >
+        <div>
+          <img
+            alt="support"
+            src="refund.png"
+          />
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH hdeUKD"
+          >
+            100% REFUND
+          </p>
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH fGlIYz text-align"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+          </p>
+        </div>
+      </div>
+      <div
+        className="d-flex-space-between flex-column p-3"
+      >
+        <div>
+          <img
+            alt="support"
+            src="support.png"
+          />
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH hdeUKD"
+          >
+            SUPPORT 24/7
+          </p>
+        </div>
+        <div>
+          <p
+            className="sc-bwzfXH fGlIYz text-align"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

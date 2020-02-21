@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa lauwRn"
+>
+  <div
+    className="text-align"
+  >
+    <p
+      className="sc-bwzfXH koyxRV"
+    />
+  </div>
+  <div
+    className="d-flex"
+  >
+    <div
+      className="d-flex"
+    >
+      <div>
+        <img
+          alt="laptop"
+          src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+        />
+      </div>
+      <div
+        className="sc-ifAKCX dljjaB p-3"
+      >
+        <p
+          className="sc-bwzfXH ejpdlN"
+        >
+          01 Jan, 2015
+        </p>
+        <p
+          className="sc-bwzfXH jTrSdS"
+        >
+          Typesetting industry
+        </p>
+        <p
+          className="sc-bwzfXH ckPPLG"
+        >
+          Lorem Ipsum is simply dummy text of the printing and
+        </p>
+      </div>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <div>
+        <img
+          alt="laptop"
+          src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+        />
+      </div>
+      <div
+        className="sc-ifAKCX dljjaB p-3"
+      >
+        <p
+          className="sc-bwzfXH ejpdlN"
+        >
+          01 Jan, 2015
+        </p>
+        <p
+          className="sc-bwzfXH jTrSdS"
+        >
+          Typesetting industry
+        </p>
+        <p
+          className="sc-bwzfXH ckPPLG"
+        >
+          Lorem Ipsum is simply dummy text of the printing and
+        </p>
+      </div>
+    </div>
+    <div
+      className="d-flex"
+    >
+      <div>
+        <img
+          alt="laptop"
+          src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+        />
+      </div>
+      <div
+        className="sc-ifAKCX dljjaB p-3"
+      >
+        <p
+          className="sc-bwzfXH ejpdlN"
+        >
+          01 Jan, 2015
+        </p>
+        <p
+          className="sc-bwzfXH jTrSdS"
+        >
+          Typesetting industry
+        </p>
+        <p
+          className="sc-bwzfXH ckPPLG"
+        >
+          Lorem Ipsum is simply dummy text of the printing and
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

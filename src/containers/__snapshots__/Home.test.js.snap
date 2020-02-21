@@ -1,0 +1,4398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa bwTILp"
+    data-testid="headerId"
+  >
+    <div
+      className="container d-flex justify-content-between flex-wrap"
+    >
+      <div
+        className="d-flex"
+      >
+        <label>
+          <select
+            className="sc-EHOje dUJsuo"
+            list={
+              Array [
+                "EN",
+                "YR",
+                "FR ",
+                "IG",
+              ]
+            }
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Select
+            </option>
+            <option>
+              EN
+            </option>
+            <option>
+              YR
+            </option>
+            <option>
+              FR 
+            </option>
+            <option>
+              IG
+            </option>
+          </select>
+        </label>
+        <label>
+          <select
+            className="sc-EHOje dUJsuo"
+            list={
+              Array [
+                "USD",
+                "NGN",
+                "YEN",
+              ]
+            }
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Select
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              NGN
+            </option>
+            <option>
+              YEN
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        className="d-flex align-items-center"
+      >
+        <div
+          className="profile"
+        >
+          <a
+            className="sc-bwzfXH jZDrkn"
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 288c79.5 0 144-64.5 144-144S335.5 0 256 0 112 64.5 112 144s64.5 144 144 144zm128 32h-55.1c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16H128C57.3 320 0 377.3 0 448v16c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-16c0-70.7-57.3-128-128-128z"
+              />
+            </svg>
+             My profile
+          </a>
+        </div>
+        <div
+          className="cart"
+        >
+          <a
+            className="sc-bwzfXH jZDrkn"
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 576 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058 14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701 14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z"
+              />
+            </svg>
+             0 items
+             
+            <span
+              className="sc-htpNat jwqrHk"
+            >
+               $0.00
+            </span>
+          </a>
+        </div>
+        <div
+          className="search-icons cursor"
+        >
+          <svg
+            className="sc-ifAKCX kaovKJ"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-chPdSV fPeyDq"
+  >
+    <div
+      className="d-flex align-items-center flex-column"
+      data-testid="navbarId"
+    >
+      <p
+        className="sc-bZQynM vBKtU"
+      >
+        BOUNCER
+      </p>
+      <div
+        className="d-flex justify-content-center flex-wrap"
+      >
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/"
+        >
+          HOME
+        </button>
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/"
+        >
+          <ul
+            className="sc-dxgOiQ rGcbf"
+          >
+            <li
+              className="sc-kpOJdX eoXiac"
+            >
+              STORE
+              <div
+                className="sc-kGXeez cPsitL"
+              >
+                <div
+                  className="sc-ckVGcZ bJCsSz d-flex my-dropdown"
+                >
+                  <div
+                    className="sc-jKJlTe jjRzqI d-flex justify-content-between flex-wrap pt-3 pl-5 pr-5 pb-3"
+                  >
+                    <div
+                      className="sc-eNQAEJ cpVACp d-flex flex-column align-items-start"
+                    >
+                      <p
+                        className="sc-bZQynM ceuoPH"
+                      >
+                        Phone
+                      </p>
+                      <div
+                        className="sc-kEYyzF fDPAaI d-flex flex-column flex-wrap align-items-start pb-2"
+                      >
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AirPort & Wireless
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AppleCare
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Bags
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Business & Security
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Cables & Docks
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AirPort & Wireless
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AppleCare
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Bags, Shells & Sleeves
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Business & Security
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Cables & Docks
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      className="sc-eNQAEJ cpVACp d-flex flex-column align-items-start"
+                    >
+                      <p
+                        className="sc-bZQynM ceuoPH"
+                      >
+                        Macbook
+                      </p>
+                      <div
+                        className="sc-kEYyzF fDPAaI d-flex flex-column flex-wrap align-items-start pb-2"
+                      >
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AirPort & Wireless
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AppleCare
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Bags, Shells & Sleeves
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Business & Security
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Cables & Docks
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AirPort & Wireless
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AppleCare
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Bags, Shells & Sleeves
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Business & Security
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Cables & Docks
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      className="sc-eNQAEJ cpVACp d-flex flex-column align-items-start"
+                    >
+                      <p
+                        className="sc-bZQynM ceuoPH"
+                      >
+                        Accessories
+                      </p>
+                      <div
+                        className="sc-kEYyzF fDPAaI d-flex flex-column flex-wrap align-items-start pb-2"
+                      >
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AirPort & Wireless
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          AppleCare
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Bags, Shells & Sleeves
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Business & Security
+                        </a>
+                        <a
+                          className="sc-bZQynM sc-hMqMXs cvCzlI"
+                          href="#"
+                        >
+                          Cables & Docks
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </button>
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/IPHONE"
+        >
+          IPHONE
+        </button>
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/IPAD"
+        >
+          IPAD
+        </button>
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/MACBOOK"
+        >
+          MACBOOK
+        </button>
+        <button
+          className="sc-kgoBCf XacuB"
+          to="/ACCESSORIES"
+        >
+          ACCESSORIES
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-kkGfuU cmJDyh"
+  >
+    <div
+      className="carouselWrapper"
+    >
+      <div
+        className="slick-slider slick-initialized"
+        dir="ltr"
+      >
+        <button
+          className="slick-arrow slick-prev"
+          data-role="none"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+          type="button"
+        >
+           
+          Previous
+        </button>
+        <div
+          className="slick-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={null}
+          onMouseMove={null}
+          onMouseUp={[Function]}
+          onTouchCancel={null}
+          onTouchEnd={[Function]}
+          onTouchMove={null}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="carouselItems"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="textWrapper"
+                  >
+                    <div
+                      className="itemInfo"
+                    >
+                      <p
+                        className="sc-bZQynM CByRI"
+                      >
+                        iPhone X
+                      </p>
+                      <p
+                        className="sc-bZQynM ckAlEg"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                      </p>
+                      <p
+                        className="sc-bZQynM eKQNze underLine"
+                      >
+                        MORE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="imgWrapper"
+                  >
+                    <img
+                      alt="MaskGroup1"
+                      className="productImg"
+                      src="MaskGroup1.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          className="slick-arrow slick-next"
+          data-role="none"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+          type="button"
+        >
+           
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="vis-hidden"
+  >
+    <div
+      className="wrapper-2 position-2"
+    >
+      <div
+        className="sc-iAyFgw dUIYef"
+      >
+        <div
+          className="mex"
+        >
+          <div
+            className="advert"
+          >
+            <img
+              alt="product advert"
+              src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986836/bouncer-frontend/iphone_ad"
+            />
+          </div>
+          <div
+            className="advert"
+          >
+            <img
+              alt="product advert"
+              src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986849/bouncer-frontend/oculus_rift_ad_nrpsc2.png"
+            />
+          </div>
+          <div
+            className="advert"
+          >
+            <img
+              alt="product advert"
+              src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986827/bouncer-frontend/go_pro_ad_fumlul.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="wrapper-2 position-2"
+  >
+    <div
+      className="sc-hSdWYo dpPHia"
+    >
+      <div
+        className="d-flex-center"
+      >
+        <p
+          className="sc-bZQynM epTvKj"
+        >
+          BEST SELLER
+        </p>
+      </div>
+      <div>
+        <ul
+          className="d-flex-center"
+        >
+          <li
+            className="m5 active"
+            onClick={[Function]}
+          >
+            <p
+              className="sc-bZQynM dCraYx"
+            >
+              All
+            </p>
+          </li>
+          <li
+            className="m5"
+            onClick={[Function]}
+          >
+            <p
+              className="sc-bZQynM dCraYx"
+            >
+              Mac
+            </p>
+          </li>
+          <li
+            className="m5"
+            onClick={[Function]}
+          >
+            <p
+              className="sc-bZQynM dCraYx"
+            >
+              iPhone
+            </p>
+          </li>
+          <li
+            className="m5"
+            onClick={[Function]}
+          >
+            <p
+              className="sc-bZQynM dCraYx"
+            >
+              iPad
+            </p>
+          </li>
+          <li
+            className="m5"
+            onClick={[Function]}
+          >
+            <p
+              className="sc-bZQynM dCraYx"
+            >
+              Accessories
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="d-flex-center flex-column"
+      >
+        <div
+          className="d-flex-center-wrap"
+        >
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    >
+                      Hot
+                    </div>
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="lp.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Apple Macbook Pro
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    />
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="lp.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Apple Macbook Pro
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    >
+                      Hot
+                    </div>
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="lp.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Apple Macbook Pro
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    >
+                      Hot
+                    </div>
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="lp.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Apple Macbook Pro
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    />
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="lp.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Apple Macbook Pro
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    >
+                      Hot
+                    </div>
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="Mask.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        iPhone6
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    />
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="Mask.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        iPhone6
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="m3"
+          >
+            <div
+              className="vis-hidden"
+            >
+              <div>
+                <div
+                  className="sc-eHgmQL eLgXfb"
+                >
+                  <div>
+                    <div
+                      className="sc-jWBwVP gYxnng"
+                    >
+                      Hot
+                    </div>
+                    <div
+                      className="imageContainer"
+                      onMouseEnter={[Function]}
+                    >
+                      <img
+                        alt="laptop"
+                        src="feature1.png"
+                      />
+                    </div>
+                    <div
+                      className="iconContainer"
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="sc-cvbbAY fcWEfh"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="sc-cvbbAY fcWEfh ml-2"
+                        onClick={[Function]}
+                      >
+                        <svg
+                          color="#33a0ff"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#33a0ff",
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      className="stockName d-flex justify-content-center"
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Headphone
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-center"
+                    >
+                      <h5
+                        className="sc-bZQynM eYpeIq mr-3"
+                      >
+                        $
+                        499
+                      </h5>
+                      <h5
+                        className="sc-bZQynM hQxvlb old_price"
+                      >
+                        $
+                        599
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p
+          className="sc-bZQynM favBOR active loadMore"
+          onClick={[Function]}
+        >
+          Load More..
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-12"
+  >
+    <div
+      className="vis-hidden"
+    >
+      <div
+        className="sc-brqgnP fXFGzJ"
+      >
+        <section
+          className="sc-cMljjf gpaFTv"
+        >
+          <div
+            className="sc-jAaTju hCrSDI"
+          >
+            <div>
+              <p
+                className="sc-bZQynM dRpzDl"
+              >
+                iPhone 6 Plus
+              </p>
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM flqrWT"
+              >
+                Performance and design. Taken right to the edge.
+              </p>
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM fDvTXX"
+              >
+                <span
+                  className="border-1"
+                >
+                  SHOP NOW
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className="sc-jDwBTQ fDeSZs"
+          >
+            <img
+              alt="Iphone"
+              src="pic.png"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    className="wrapper-2 mt-11"
+  >
+    <div
+      className="vis-hidden"
+    >
+      <div
+        className="sc-gPEVay bjAIwx"
+      >
+        <div
+          className="d-flex"
+        >
+          <div
+            className="d-flex-space-between flex-column p-3"
+          >
+            <div>
+              <img
+                alt="support"
+                src="shipping.png"
+              />
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM iASsKM"
+              >
+                FREE SHIPPING
+              </p>
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM cpZQNT text-align"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+          <div
+            className="d-flex-space-between flex-column p-3"
+          >
+            <div>
+              <img
+                alt="support"
+                src="refund.png"
+              />
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM iASsKM"
+              >
+                100% REFUND
+              </p>
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM cpZQNT text-align"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+          <div
+            className="d-flex-space-between flex-column p-3"
+          >
+            <div>
+              <img
+                alt="support"
+                src="support.png"
+              />
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM iASsKM"
+              >
+                SUPPORT 24/7
+              </p>
+            </div>
+            <div>
+              <p
+                className="sc-bZQynM cpZQNT text-align"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="vis-hidden"
+    >
+      <div
+        className="sc-gPEVay bjAIwx"
+      >
+        <div
+          className="text-align"
+        >
+          <p
+            className="sc-bZQynM dYPiaP"
+          >
+            LATEST NEWS
+          </p>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <div
+            className="d-flex"
+          >
+            <div>
+              <img
+                alt="laptop"
+                src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+              />
+            </div>
+            <div
+              className="sc-iRbamj kPeeCB p-3"
+            >
+              <p
+                className="sc-bZQynM ceuoPH"
+              >
+                01 Jan, 2015
+              </p>
+              <p
+                className="sc-bZQynM eVCXBb"
+              >
+                Typesetting industry
+              </p>
+              <p
+                className="sc-bZQynM jzApbj"
+              >
+                Lorem Ipsum is simply dummy text of the printing and
+              </p>
+            </div>
+          </div>
+          <div
+            className="d-flex"
+          >
+            <div>
+              <img
+                alt="laptop"
+                src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+              />
+            </div>
+            <div
+              className="sc-iRbamj kPeeCB p-3"
+            >
+              <p
+                className="sc-bZQynM ceuoPH"
+              >
+                01 Jan, 2015
+              </p>
+              <p
+                className="sc-bZQynM eVCXBb"
+              >
+                Typesetting industry
+              </p>
+              <p
+                className="sc-bZQynM jzApbj"
+              >
+                Lorem Ipsum is simply dummy text of the printing and
+              </p>
+            </div>
+          </div>
+          <div
+            className="d-flex"
+          >
+            <div>
+              <img
+                alt="laptop"
+                src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+              />
+            </div>
+            <div
+              className="sc-iRbamj kPeeCB p-3"
+            >
+              <p
+                className="sc-bZQynM ceuoPH"
+              >
+                01 Jan, 2015
+              </p>
+              <p
+                className="sc-bZQynM eVCXBb"
+              >
+                Typesetting industry
+              </p>
+              <p
+                className="sc-bZQynM jzApbj"
+              >
+                Lorem Ipsum is simply dummy text of the printing and
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="vis-hidden"
+    >
+      <div
+        className="mt-11"
+      >
+        <div>
+          <div
+            className="text-align"
+          >
+            <p
+              className="sc-bZQynM epTvKj"
+            >
+              FEATURED PRODUCTS
+            </p>
+          </div>
+          <ul
+            className=" p-1 d-flex-space-between flex-wrap"
+          >
+            <li>
+              <div>
+                <div
+                  className="sc-jlyJG dZZREj"
+                >
+                  <div>
+                    <div
+                      className="imageContainer"
+                    >
+                      <img
+                        alt="laptop"
+                        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976800/bouncer-frontend/headset_xfmz7l.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="footer"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "width": "10.125rem",
+                        }
+                      }
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Beats Solo 2 On Ear Headphones - Black
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <span
+                        className="sc-bZQynM NtqTy mr-3"
+                      >
+                        $
+                        499
+                      </span>
+                      <span
+                        className="sc-bZQynM irDGeA old_price"
+                      >
+                        $
+                        599
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div
+                  className="sc-jlyJG dZZREj"
+                >
+                  <div>
+                    <div
+                      className="imageContainer"
+                    >
+                      <img
+                        alt="laptop"
+                        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976812/bouncer-frontend/tv_tray_c0ht3d.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="footer"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "width": "10.125rem",
+                        }
+                      }
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        H-Squared tvTray
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <span
+                        className="sc-bZQynM NtqTy mr-3"
+                      >
+                        $
+                        499
+                      </span>
+                      <span
+                        className="sc-bZQynM irDGeA old_price"
+                      >
+                        $
+                        599
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div
+                  className="sc-jlyJG dZZREj"
+                >
+                  <div>
+                    <div
+                      className="imageContainer"
+                    >
+                      <img
+                        alt="laptop"
+                        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976806/bouncer-frontend/item3_sjz14g.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="footer"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "width": "10.125rem",
+                        }
+                      }
+                    >
+                      <p
+                        className="sc-bZQynM bQhlBb product_name"
+                      >
+                        Netatmo Rain Gauge
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#ffc600"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#ffc600",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        className="mr-1"
+                      >
+                        <svg
+                          color="#c1c8ce"
+                          fill="currentColor"
+                          height="10.9px"
+                          size="10.9px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": "#c1c8ce",
+                            }
+                          }
+                          viewBox="0 0 576 512"
+                          width="10.9px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      className="d-flex justify-content-start"
+                    >
+                      <span
+                        className="sc-bZQynM NtqTy mr-3"
+                      >
+                        $
+                        499
+                      </span>
+                      <span
+                        className="sc-bZQynM irDGeA old_price"
+                      >
+                        $
+                        599
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="wrapper-3 mt-11"
+  >
+    <div
+      className="sc-Rmtcm gcpQRk"
+      name="Search"
+    >
+      <input
+        className="sc-csuQGl iomqYR"
+        placeholder="Search query..."
+      />
+      <button
+        className="sc-gipzik kkauRL"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+  <div
+    className="mt-17"
+  >
+    <div
+      data-testid="footerId"
+    >
+      <hr
+        className="sc-dnqmqq gTMxvY"
+      />
+      <div
+        className="container"
+      >
+        <div
+          className="sc-gqjmRU fxeOKj  d-flex justify-content-around flex-wrap"
+        >
+          <div
+            className="d-flex flex-column"
+            style={
+              Object {
+                "flexBasis": "33.3%",
+              }
+            }
+          >
+            <img
+              alt="logo"
+              className="sc-cSHVUG jTsJzG"
+              src="logo.svg"
+            />
+            <p
+              className="sc-iwsKbI sc-VigVT hnLsBz"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.
+            </p>
+          </div>
+          <div
+            className="d-flex flex-column"
+            style={
+              Object {
+                "flexBasis": "33.3%",
+              }
+            }
+          >
+            <p
+              className="sc-iwsKbI dETDlV"
+            >
+              Follow Us
+            </p>
+            <p
+              className="sc-iwsKbI sc-VigVT hnLsBz"
+            >
+              Since the 1500s, when an unknown printer took a galley of type and scrambled.
+            </p>
+            <div
+              className="sc-jTzLTM jShoQl d-flex jusify-content-evenly"
+            >
+              <span
+                className="sc-fjdhpX ekJcdN"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 320 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                  />
+                </svg>
+              </span>
+              <span
+                className="sc-fjdhpX kSHwZj"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-column pl-6"
+            style={
+              Object {
+                "flexBasis": "33.3%",
+              }
+            }
+          >
+            <p
+              className="sc-iwsKbI dETDlV"
+            >
+              Contact Us
+            </p>
+            <p
+              className="sc-iwsKbI sc-VigVT hnLsBz"
+            >
+              My Company , 4578 Marmora Road, Glasgow D04 89GR
+              <br />
+               Call us now: 0123-456-789 
+              <br />
+              Email: support@whatever.com
+            </p>
+          </div>
+          <hr
+            className="sc-dnqmqq gTMxvY"
+          />
+        </div>
+        <hr
+          className="sc-dnqmqq gTMxvY"
+        />
+        <div
+          className="sc-gqjmRU fxeOKj container pb-4"
+        >
+          <div
+            className="d-flex justify-content-between flex-wrap"
+          >
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                Information
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                Services
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                Extras
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                My Account
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                Useful Links
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="sc-iwsKbI dETDlV"
+              >
+                Our Offers
+              </p>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                About Us
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Information
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Privacy Policy
+              </a>
+              <a
+                className="sc-gzVnrw sc-kAzzGY hCKwQb"
+                href="#"
+                to="/"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr
+        className="sc-dnqmqq gTMxvY"
+      />
+      <div
+        className="sc-gqjmRU fxeOKj container"
+      >
+        <div
+          className="d-flex justify-content-between"
+        >
+          <p
+            className="sc-iwsKbI jfHxCq mt-16"
+          >
+            © 2018 Ecommerce theme by www.bisenbaev.com
+          </p>
+          <div
+            className="sc-gZMcBi hrfTfZ"
+          >
+            <img
+              alt="western union card"
+              className="sc-jzJRlG kzWYeB"
+              src="Western-union.svg"
+            />
+            <img
+              alt="master card"
+              className="sc-jzJRlG kzWYeB"
+              src="mastercard.svg"
+            />
+            <img
+              alt="paypal card"
+              className="sc-jzJRlG kzWYeB"
+              src="Paypal.svg"
+            />
+            <img
+              alt="visa card"
+              className="sc-jzJRlG kzWYeB"
+              src="visas.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

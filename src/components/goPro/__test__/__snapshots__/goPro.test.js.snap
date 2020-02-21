@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to match snapshot 1`] = `
+<div
+  data-testid="gopro"
+>
+  <div
+    class="sc-bxivhb jdDYcm"
+  >
+    <div
+      class="title"
+    >
+      <p
+        class="sc-bdVaJa RsCyL"
+      >
+        GoPro Hero 6
+      </p>
+    </div>
+    <div
+      class="description"
+    >
+      <p
+        class="sc-bdVaJa bchmcq"
+      >
+        Lorem ipsum dolor amet, consecteture adipisong elit, labor
+      </p>
+    </div>
+    <div
+      class="price"
+    >
+      <p
+        class="sc-bdVaJa iNAVdO"
+      >
+        $299
+      </p>
+    </div>
+    <div
+      class="image"
+    >
+      <img
+        alt="GoPro"
+        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575976798/bouncer-frontend/gopro_k0hnnm.png"
+      />
+    </div>
+  </div>
+</div>
+`;

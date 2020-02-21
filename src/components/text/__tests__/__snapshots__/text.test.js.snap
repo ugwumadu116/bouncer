@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly where fline height is set 1`] = `
+<p
+  className="sc-bdVaJa fiqdtG"
+>
+  Hello
+</p>
+`;
+
+exports[`renders correctly where font weight is set 1`] = `
+<p
+  className="sc-bdVaJa ejaqKF"
+>
+  Hello
+</p>
+`;
+
+exports[`renders correctly where letter spacing is set 1`] = `
+<p
+  className="sc-bdVaJa hbjBEG"
+>
+  Hello
+</p>
+`;
+
+exports[`renders correctly where only font size is set 1`] = `
+<p
+  className="sc-bdVaJa GZDkD"
+>
+  hello
+</p>
+`;

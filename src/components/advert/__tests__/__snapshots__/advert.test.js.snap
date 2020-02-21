@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa dXihno"
+>
+  <div
+    className="mex"
+  >
+    <div
+      className="advert"
+    >
+      <img
+        alt="product advert"
+        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986836/bouncer-frontend/iphone_ad"
+      />
+    </div>
+    <div
+      className="advert"
+    >
+      <img
+        alt="product advert"
+        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986849/bouncer-frontend/oculus_rift_ad_nrpsc2.png"
+      />
+    </div>
+    <div
+      className="advert"
+    >
+      <img
+        alt="product advert"
+        src="https://res.cloudinary.com/decagonbouncer/image/upload/v1575986827/bouncer-frontend/go_pro_ad_fumlul.png"
+      />
+    </div>
+  </div>
+</div>
+`;

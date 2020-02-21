@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<span
+  className="sc-htpNat hCtDsA"
+>
+  <label
+    className="sc-bxivhb fVcWOf"
+    htmlFor="checkbox"
+  />
+  <div
+    className="sc-bdVaJa bBPEUt"
+    id="checkbox"
+  >
+    <input
+      aria-label="checkbox"
+      aria-required="true"
+      className="sc-ifAKCX MhoXa"
+      data-testid="box"
+      type="checkbox"
+    />
+    <div
+      className="sc-EHOje iMWpYg"
+    >
+      <svg
+        className="sc-bwzfXH bkYyAD"
+        viewBox="0 0 24 24"
+      >
+        <polyline
+          points="20 6 9 17 4 12"
+        />
+      </svg>
+    </div>
+  </div>
+</span>
+`;
